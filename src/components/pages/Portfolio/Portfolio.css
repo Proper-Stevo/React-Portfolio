@@ -1,7 +1,14 @@
 .portfolio {
-    background-color: lightgray;
+    background-color: black;
+    color: white;
 }
 
-.img {
-    size: 50px;
+.carousel-caption {
+    background-color: blue;
+}
+
+.carousel-indicators {
+    color: red;
+    z-index: 3;
+    display: none;
 }

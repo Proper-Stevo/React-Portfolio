@@ -1,23 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react'
 import "./Contact.css";
 
-export default function Contact() {
+const InputContact = (props) => {
+  // Here we set two state variables for firstName and lastName using `useState`
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+
+const handleInputChange = (e) => {
+  // Getting the value and name of the input which triggered the change
+  e.preventDefault();
+
+  setName(e.target.fname.value);
+  setEmail(e.target.femail.value);
+
+  console.log(name);
+  props.addContact(name,email);
+
+};
+
   return (
     <div>
-      <h1>Contact Page</h1>
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+        Please Contact Me Here!
       </p>
+      <form className="form">
+        <input
+          value={name}
+          name="Name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Email"
+        />
+        <button type="button" onClick={InputContact}>
+          Submit
+        </button>
+      </form>
     </div>
   );
-}
+  }
+export default InputContact;
