@@ -3,45 +3,45 @@ import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'>
       <h1>Portfolio Page</h1>
-      <div id="carouselExampleCaptions" classname="carousel slide" data-bs-ride="false">
-        <div classnameName='carousel-indicators'>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" classname="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div classnameName='carousel-inner'>
-          <div classname="carousel-item active">
-            <img src="" classname="d-block w-100" alt="..."></img>
-            <div classname="carousel-caption d-none d-md-block">
+      <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+        <ol className="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="./img/cards.webp" className="d-block mx-auto w-50" alt="..."></img>
+            <div className="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
-          <div classname="carousel-item">
-            <img src="..." classname="d-block w-100" alt="..."></img>
-            <div classname="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="./img/nationalPark.jpeg" className="d-block w-100" alt="..."></img>
+            <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-          <div classname="carousel-item">
-            <img src="..." classname="d-block w-100" alt="..."></img>
-            <div classname="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src="..." className="d-block w-100" alt="..."></img>
+            <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
           </div>
         </div>
-        <button classname="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span classname="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span classname="visually-hidden">Previous</span>
-        </button>
-        <button classname="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span classname="carousel-control-next-icon" aria-hidden="true"></span>
-          <span classname="visually-hidden">Next</span>
-        </button>
+        <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
+        </a>
+        <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
+        </a>
       </div>
     </div>
   );
