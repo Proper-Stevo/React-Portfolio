@@ -20,3 +20,8 @@ export default function About() {
 
 
 // image and coverletter or background information not resume style
+
+// <a class="btn btn-outline-light btn-floating m-1" href="mailto:steven.barrios92@gmail.com" role="button"><i class="fab fa-google"></i></i></a>
+//             <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/stevenb1992/" role="button"><i class="fab fa-linkedin"></i></a>
+//             <i class="btn btn-outline-light btn-floating m-1" href="https://github.com/Proper-Stevo" role="button"><i class="fab fa-github"></i></i></a>
+//             <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" style="text-decoration: transparent" role="button"><i class="fab fa-twitter"></i></a>

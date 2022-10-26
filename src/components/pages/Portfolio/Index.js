@@ -10,39 +10,54 @@ export default function Portfolio() {
       <h1>Portfolio Page</h1>
     <Carousel>
       <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
+        <img 
+          className="d-block mx-auto w-50"
           src="./img/cards.webp"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Card Game</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <button>GitHub</button>
-          <button>Website</button>
+          <button href="https://nameless-sierra-87070.herokuapp.com/notes">GitHub</button>
+          <button href="https://nameless-sierra-87070.herokuapp.com/notes">Website</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img
-          className="d-block w-100"
+          className="d-block mx-auto w-50"
           src="./img/nationalPark.jpeg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>National Park Finder</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button>GitHub</button>
-          <button>Website</button>
+          <button href="https://github.com/Proper-Stevo/ThePonderosaPines">GitHub</button>
+          <button href="https://proper-stevo.github.io/ThePonderosaPines/">Website</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block mx-auto w-50"
           src="./img/noteimage.png"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Note Taker Applcation</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+          <button href="https://github.com/Proper-Stevo/NoteTaker">GitHub</button>
+          <button href="https://nameless-sierra-87070.herokuapp.com/notes">Website</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block mx-auto w-50"
+          src="./img/Calculator_PNG.png"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Fourth slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>

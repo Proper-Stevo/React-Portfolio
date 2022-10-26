@@ -18,7 +18,7 @@ export default function Home() {
         fames ac ante ipsum primis in faucibus.
       </p>
     </div>
-  );
-}
+  )
+};
 
 // introduction about yourself
