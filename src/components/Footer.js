@@ -38,5 +38,5 @@ export default function Footer() {
                 <i className='fa-brands fa-goole custom-icon'></i>
             </a>
         </div>
-    )
+    );
 };
