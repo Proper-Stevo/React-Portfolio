@@ -1,0 +1,32 @@
+.frontPage {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  
+}
+
+.nameID {
+  font-size: 100px;
+}
+
+.cardsTotal {
+  color: black;
+  padding: 2px;
+  margin: 10px;
+}
+
+.cardOne {
+  margin: 4px;
+}
+
+.cardOne:hover {
+  padding-bottom: 4px;
+}
+
+.cardTwo {
+  margin: 4px;
+}
+
+.cardThree {
+  margin: 4px;
+}

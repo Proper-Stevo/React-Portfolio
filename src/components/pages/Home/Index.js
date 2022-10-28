@@ -1,24 +1,49 @@
 import React from 'react';
-import "./Home.scss";
+import "./Home.css";
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className='frontPage'>
+      <div className='nameID'>I am Steven Barrios</div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        I am a Full Stack Developer. I like dabbing in various frontend development and backend devlopment projects.
+        I love to learn about new technologies, learn about technical advances, nature and dogs.
       </p>
-    </div>
-  )
-};
+          <CardGroup className='cardsTotal'>
+            <Card className='cardOne'>
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a natural lead-in
+                  to additional content. This content is a little bit longer. 
+                  This is a test
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className='cardTwo'>
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                <Card.Text>
+                  This card has supporting text below as a natural lead-in to
+                  additional content.{' '}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className='cardThree'>
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a natural lead-in
+                  to additional content. This card has even longer content than the
+                  first to show that equal height action.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardGroup> 
+          </div>
+        );
+      };
 
 // introduction about yourself

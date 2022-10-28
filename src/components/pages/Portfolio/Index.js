@@ -57,9 +57,9 @@ export default function Portfolio() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Fourth slide label</h3>
+          <h3>Calculator</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Very Simple Calculator
           </p>
           <button>GitHub</button>
           <button>Website</button>
