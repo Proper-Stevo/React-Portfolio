@@ -55,7 +55,8 @@ function Form() {
 
   return (
     <div className='contactForm'>
-      <p> Contact Me Here: {userName}</p>
+      <p> Contact Me Here:</p>
+      < hr />
       <form className="form">
         <input
           value={email}

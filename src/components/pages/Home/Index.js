@@ -14,11 +14,10 @@ export default function Home() {
           <CardGroup className='cardsTotal'>
             <Card className='cardOne'>
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Space Odyssey</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in
-                  to additional content. This content is a little bit longer. 
-                  This is a test
+                  Come see space in a whole new way!
+                  <img src='./img/systembade.png' height={"300px"} ></img>
                 </Card.Text>
               </Card.Body>
             </Card>
