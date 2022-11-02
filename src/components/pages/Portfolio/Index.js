@@ -14,6 +14,8 @@ export default function Portfolio() {
           className="d-block mx-auto w-50"
           src="./img/cards.webp"
           alt="First slide"
+          height={"400px"}
+          width={'400px'}
         />
         <Carousel.Caption>
           <h3>Card Game</h3>
@@ -27,6 +29,8 @@ export default function Portfolio() {
           className="d-block mx-auto w-50"
           src="./img/nationalPark.jpeg"
           alt="Second slide"
+          height={"400px"}
+          width={'400px'}
         />
         <Carousel.Caption>
           <h3>National Park Finder</h3>
@@ -40,6 +44,8 @@ export default function Portfolio() {
           className="d-block mx-auto w-50"
           src="./img/noteimage.png"
           alt="Third slide"
+          height={"400px"}
+          width={'400px'}
         />
         <Carousel.Caption>
           <h3>Note Taker Applcation</h3>
@@ -55,6 +61,8 @@ export default function Portfolio() {
           className="d-block mx-auto w-50"
           src="./img/Calculator_PNG.png"
           alt="Third slide"
+          height={"400px"}
+          width={'400px'}
         />
         <Carousel.Caption>
           <h3>Calculator</h3>

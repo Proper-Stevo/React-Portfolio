@@ -5,14 +5,15 @@ import "./About.css";
 export default function About() {
   return (
     <div className='about'>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      <img src='./img/selfie.jpeg' className='photo'></img>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Born and Raised from the city of Los Angeles, California. A Full Stack Developer with an ambition and hunger to be the 
+        best I can be. Well-versed in technology and writing code to create reliable and friendly user systems. A motivated leader
+        with the skills to prove that I am more than capable to learn, adapt and motivate others around me to give 100% of effort when
+        it comes to furthering ourselves and a company. Confident in communicating skills, building rapport and stragetic skills to develop 
+        software. Aside from enjoying technology and furthering our future, I do enjoy the outdoors. Hiking, siteseeing, new locations and 
+        destinations are alwaysa a must! 
       </p>
     </div>
   );

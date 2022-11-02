@@ -1,16 +1,18 @@
-.titleID {
-    color: white;
-    padding: 50px;
-    margin: 50px;
-}
 
 .firstDiv {
     color: white;
-    padding: 10px;
+    padding: auto;
     margin: auto;
     width: 50%;
 }
 
-img {
-    border-radius: 50%;
-  }
+button {
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}

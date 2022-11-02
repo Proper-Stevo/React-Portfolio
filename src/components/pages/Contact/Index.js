@@ -20,9 +20,10 @@ const handleInputChange = (e) => {
 };
 
   return (
-    <div>
+    <div className='contactForm'>
       <p>
         Please Contact Me Here!
+        <hr />
       </p>
       <form className="form">
         <input
@@ -32,6 +33,8 @@ const handleInputChange = (e) => {
           type="text"
           placeholder="Name"
         />
+        <br />
+        <br />
         <input
           value={email}
           name="email"
@@ -39,6 +42,8 @@ const handleInputChange = (e) => {
           type="text"
           placeholder="Email"
         />
+        <br />
+        <br />
         <button type="button" onClick={InputContact}>
           Submit
         </button>

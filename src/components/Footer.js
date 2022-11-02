@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/PortfolioContainer.css'
+import './styles/PortfolioContainer.scss'
 import './styles/Footer.css'
 
 export default function Footer() {
