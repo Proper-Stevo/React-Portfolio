@@ -17,7 +17,7 @@ export default function Home() {
                 <Card.Title>Space Odyssey</Card.Title>
                 <Card.Text>
                   Come see space in a whole new way!
-                  <img src='./img/systembade.png' height={"300px"} ></img>
+                  <img src='./img/systembade.png' alt='solar system' height={"300px"} ></img>
                 </Card.Text>
               </Card.Body>
             </Card>

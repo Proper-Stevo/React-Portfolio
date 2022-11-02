@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className='about'>
       <h1>About Me</h1>
-      <img src='./img/selfie.jpeg' className='photo'></img>
+      <img src='./img/selfie.jpeg' alt='picture of me' className='photo'></img>
       <p>
         Born and Raised from the city of Los Angeles, California. A Full Stack Developer with an ambition and hunger to be the 
         best I can be. Well-versed in technology and writing code to create reliable and friendly user systems. A motivated leader
